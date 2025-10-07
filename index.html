@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        .ab{
+            background-color: whitesmoke;
+            position: fixed;
+            margin: 0px;
+        }
+        .ab .bc{
+            display: inline-block;
+        }
+        .ab h1{
+            display: inline-block;
+        }
+        .bc p{
+            display: inline-block;
+            padding-left: 40px;
+        }
+        .bc{
+            margin-left: 1400px;
+        }
+        .hi>img{
+            width: 100%;
+        }
+        .hi>h1{
+            position: absolute;
+            top: 600px;
+            left: 850px;
+        }
+        .xy{
+            width: 100%;
+        }
+        .classyz{
+            display: inline-block;
+            width: 24%;
+            padding: 5px;
+            position: relative;
+        }
+        .classyz>img{
+            width: 100%;
+        }
+        .classyz>h3{
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            background-color: black;
+            color: whitesmoke;
+        }
+        .parent{
+            width: 100%;
+        }
+        .child{
+            display: inline-block;
+            width: 24%;
+            padding: 5px;
+            position: relative;
+        }
+        .child>img{
+            width: 100%;
+        }
+        .child>h3{
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            background-color: Black;
+            color: whitesmoke;
+        }
+        .xy,.man,.pro{
+            text-align: center;
+        }
+        .para,.con{
+            margin-left: 100px;
+        }
+        .parent1{
+            text-align: center;
+        }
+        .child1{
+            display: inline-block;
+        }
+        .child1>img{
+            width: 450px;
+            padding: 10px;
+        }
+        .p{
+            width: 450px;
+        }
+        .b{
+            width: 450px;
+        }
+        .s{
+            width: 250px;
+            height: 50px;
+            background-color: black;
+            color: whitesmoke;
+        }
+        .footer{
+            width: 100%;
+            height: 100px;
+            text-align: center;
+            background-color: black;
+            color: whitesmoke;
+        }
+        .footer>h4{
+            padding-top: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="ab">
+        <h1>BR Architects</h1>
+        <div class="bc">
+            <p>Projects</p>
+            <p>Contact</p>
+            <p>About us</p>
+        </div>
+    </div>
+    <div class="hi">
+    <img src="./R_P/architect.jpg" alt="hi">
+    <h1><span style="background-color: white;">BR</span> Architects</h1>
+    </div>
+
+
+    <h1>&nbsp;</h1>
+    <h2 class="pro">Projects</h2>
+    <h1>&nbsp;</h1>
+
+    <div class="xy">
+        <div class="classyz">
+            <img src="./R_P/house5.jpg" alt="a">
+            <h3>Summer House</h3>
+        </div>
+        <div class="classyz">
+            <img src="./R_P/house2.jpg" alt="b">
+            <h3>Brick House</h3>
+        </div>
+        <div class="classyz">
+            <img src="./R_P/house4.jpg" alt="c">
+            <h3>Barn House</h3>
+        </div>
+        <div class="classyz">
+            <img src="./R_P/house3.jpg" alt="d">
+            <h3>Renovated</h3>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+    <div class="man">
+        <div class="child">
+            <img src="./R_P/house2 (1).jpg" alt="a">
+            <h3>Summer House</h3>
+        </div>
+        <div class="child">
+            <img src="./R_P/house5 (1).jpg" alt="b">
+            <h3>Brick House</h3>
+        </div>
+        <div class="child">
+            <img src="./R_P/house4 (1).jpg" alt="c">
+            <h3>Barn House</h3>
+        </div>
+        <div class="child">
+            <img src="./R_P/house3 (1).jpg" alt="d">
+            <h3>Renovated</h3>
+        </div>
+
+    </div>
+    
+    <h1>&nbsp;</h1>
+
+    <div class="para">
+    <h2>About</h2>
+    <p>&nbsp;</p>
+    <p><big>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+        consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
+        laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</big></p>
+    </div>
+
+    <p>&nbsp;</p>
+
+    <div class="parent1">
+        <div class="child1">
+            <img src="./R_P/team2.jpg" alt="a">
+            <h2>John Doe</h2>
+            <p><big>CEO & Founder</big></p>
+            <p class="p">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <p>&nbsp;</p>
+            <button class="b">Contact</button>
+        </div>
+        <div class="child1">
+            <img src="./R_P/team1.jpg" alt="b">
+            <h2>Jane Doe</h2>
+            <p><big>Architect</big></p>
+            <p class="p">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <p>&nbsp;</p>
+            <button class="b">Contact</button>
+        </div>
+        <div class="child1">
+            <img src="./R_P/team3.jpg" alt="c">
+            <h2>Mike Ross</h2>
+            <p><big>Architect</big></p>
+            <p class="p">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <p>&nbsp;</p>
+            <button class="b">Contact</button>
+        </div>
+        <div class="child1">
+            <img src="./R_P/team4.jpg" alt="d">
+            <h2>dan Star</h2>
+            <p><big>Architect</big></p>
+            <p class="p">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <p>&nbsp;</p>
+            <button class="b">Contact</button>
+        </div>
+    </div>
+    <h1>&nbsp;</h1>
+    <h1>&nbsp;</h1>
+    <div class="con">
+        <h2>Contact</h2>
+        <p>&nbsp;</p>
+        <p><big>Let's get in Touch and talk about your next project</big></p>
+        <p>&nbsp;</p>
+        <form action="">
+            <input type="text" placeholder="NAME" style="width: 1700px; height: 30px;">
+            <p>&nbsp;</p>
+            <input type="email" placeholder="EMAIL" style="width: 1700px; height: 30px;">
+            <p>&nbsp;</p>
+            <input type="text" placeholder="SUBJECT" style="width: 1700px; height: 30px;">
+            <p>&nbsp;</p>
+            <input type="text" placeholder="COMMENT" style="width: 1700px; height: 30px;">
+        </form>
+        <h1>&nbsp;</h1>
+        <button class="s">Send Message</button>
+    </div>
+    <h1>&nbsp;</h1>
+    <center><img src="./R_P/map.jpg" alt="hello" width="1800px" height="1000px"></center>
+    <h1>&nbsp;</h1>
+    <div class="footer">
+        <h4>Powered by w3.css</h4>
+
+    </div>
+</body>
+</html>
